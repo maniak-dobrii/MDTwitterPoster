@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C6651001635B58900C80364 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6650FF1635B58900C80364 /* UIKit.framework */; };
+		6C6651021635B58900C80364 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6651011635B58900C80364 /* Foundation.framework */; };
+		6C6651041635B58900C80364 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6651031635B58900C80364 /* CoreGraphics.framework */; };
+		6C66510A1635B58900C80364 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C6651081635B58900C80364 /* InfoPlist.strings */; };
+		6C66510C1635B58900C80364 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C66510B1635B58900C80364 /* main.m */; };
+		6C6651101635B58900C80364 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C66510F1635B58900C80364 /* AppDelegate.m */; };
+		6C6651131635B58900C80364 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6651121635B58900C80364 /* ViewController.m */; };
+		6C6651161635B58900C80364 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C6651141635B58900C80364 /* ViewController.xib */; };
+		6C6651211635B60400C80364 /* MDTwitterPosterConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C66511D1635B60400C80364 /* MDTwitterPosterConnection.m */; };
+		6C6651221635B60400C80364 /* MDTwitterPoster.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C66511F1635B60400C80364 /* MDTwitterPoster.m */; };
+		6C6651321635B69E00C80364 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6651251635B69E00C80364 /* SBJsonParser.m */; };
+		6C6651331635B69E00C80364 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6651261635B69E00C80364 /* NSString+SBJSON.m */; };
+		6C6651341635B69E00C80364 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6651271635B69E00C80364 /* NSObject+SBJSON.m */; };
+		6C6651351635B69E00C80364 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6651281635B69E00C80364 /* SBJsonWriter.m */; };
+		6C6651361635B69E00C80364 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C66512B1635B69E00C80364 /* SBJsonBase.m */; };
+		6C6651371635B69E00C80364 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C66512D1635B69E00C80364 /* SBJSON.m */; };
+		6C66513B1635B80000C80364 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6651391635B80000C80364 /* NSData+Base64.m */; };
+		6CFC5E8C164847BD0043775E /* why_u_no.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CFC5E8A164847BD0043775E /* why_u_no.png */; };
+		6CFC5E8D164847BD0043775E /* why_u_no@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CFC5E8B164847BD0043775E /* why_u_no@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C6650FB1635B58800C80364 /* MDTwitterPoster_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDTwitterPoster_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C6650FF1635B58900C80364 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6C6651011635B58900C80364 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6C6651031635B58900C80364 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6C6651071635B58900C80364 /* MDTwitterPoster_Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MDTwitterPoster_Demo-Info.plist"; sourceTree = "<group>"; };
+		6C6651091635B58900C80364 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C66510B1635B58900C80364 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C66510D1635B58900C80364 /* MDTwitterPoster_Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MDTwitterPoster_Demo-Prefix.pch"; sourceTree = "<group>"; };
+		6C66510E1635B58900C80364 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C66510F1635B58900C80364 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C6651111635B58900C80364 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6C6651121635B58900C80364 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6C6651151635B58900C80364 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		6C66511D1635B60400C80364 /* MDTwitterPosterConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MDTwitterPosterConnection.m; path = MDTwitterPoster/MDTwitterPosterConnection.m; sourceTree = "<group>"; };
+		6C66511E1635B60400C80364 /* MDTwitterPosterConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MDTwitterPosterConnection.h; path = MDTwitterPoster/MDTwitterPosterConnection.h; sourceTree = "<group>"; };
+		6C66511F1635B60400C80364 /* MDTwitterPoster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MDTwitterPoster.m; path = MDTwitterPoster/MDTwitterPoster.m; sourceTree = "<group>"; };
+		6C6651201635B60400C80364 /* MDTwitterPoster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MDTwitterPoster.h; path = MDTwitterPoster/MDTwitterPoster.h; sourceTree = "<group>"; };
+		6C6651251635B69E00C80364 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonParser.m; path = SBJSON/SBJsonParser.m; sourceTree = "<group>"; };
+		6C6651261635B69E00C80364 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SBJSON.m"; path = "SBJSON/NSString+SBJSON.m"; sourceTree = "<group>"; };
+		6C6651271635B69E00C80364 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SBJSON.m"; path = "SBJSON/NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		6C6651281635B69E00C80364 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = SBJSON/SBJsonWriter.m; sourceTree = "<group>"; };
+		6C6651291635B69E00C80364 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonWriter.h; path = SBJSON/SBJsonWriter.h; sourceTree = "<group>"; };
+		6C66512A1635B69E00C80364 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonParser.h; path = SBJSON/SBJsonParser.h; sourceTree = "<group>"; };
+		6C66512B1635B69E00C80364 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonBase.m; path = SBJSON/SBJsonBase.m; sourceTree = "<group>"; };
+		6C66512C1635B69E00C80364 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonBase.h; path = SBJSON/SBJsonBase.h; sourceTree = "<group>"; };
+		6C66512D1635B69E00C80364 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJSON.m; path = SBJSON/SBJSON.m; sourceTree = "<group>"; };
+		6C66512E1635B69E00C80364 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJSON.h; path = SBJSON/SBJSON.h; sourceTree = "<group>"; };
+		6C66512F1635B69E00C80364 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SBJSON.h"; path = "SBJSON/NSString+SBJSON.h"; sourceTree = "<group>"; };
+		6C6651301635B69E00C80364 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+SBJSON.h"; path = "SBJSON/NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		6C6651311635B69E00C80364 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSON.h; path = SBJSON/JSON.h; sourceTree = "<group>"; };
+		6C6651391635B80000C80364 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "Base64/NSData+Base64.m"; sourceTree = "<group>"; };
+		6C66513A1635B80000C80364 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "Base64/NSData+Base64.h"; sourceTree = "<group>"; };
+		6C66513D1635C33600C80364 /* MDTwitterPosterIncludes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDTwitterPosterIncludes.h; sourceTree = "<group>"; };
+		6CFC5E87164839680043775E /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		6CFC5E8A164847BD0043775E /* why_u_no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = why_u_no.png; path = Images/why_u_no.png; sourceTree = SOURCE_ROOT; };
+		6CFC5E8B164847BD0043775E /* why_u_no@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "why_u_no@2x.png"; path = "Images/why_u_no@2x.png"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C6650F81635B58800C80364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6651001635B58900C80364 /* UIKit.framework in Frameworks */,
+				6C6651021635B58900C80364 /* Foundation.framework in Frameworks */,
+				6C6651041635B58900C80364 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C6650F01635B58800C80364 = {
+			isa = PBXGroup;
+			children = (
+				6C6651231635B67000C80364 /* MDTwitterPoster Required Includes */,
+				6C66511C1635B5EE00C80364 /* MDTwitterPoster */,
+				6C6651051635B58900C80364 /* MDTwitterPoster_Demo */,
+				6C6650FE1635B58900C80364 /* Frameworks */,
+				6C6650FC1635B58800C80364 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C6650FC1635B58800C80364 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C6650FB1635B58800C80364 /* MDTwitterPoster_Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C6650FE1635B58900C80364 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C6650FF1635B58900C80364 /* UIKit.framework */,
+				6C6651011635B58900C80364 /* Foundation.framework */,
+				6C6651031635B58900C80364 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C6651051635B58900C80364 /* MDTwitterPoster_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6CFC5E89164847A50043775E /* images */,
+				6CFC5E87164839680043775E /* Settings.h */,
+				6C66510E1635B58900C80364 /* AppDelegate.h */,
+				6C66510F1635B58900C80364 /* AppDelegate.m */,
+				6C6651111635B58900C80364 /* ViewController.h */,
+				6C6651121635B58900C80364 /* ViewController.m */,
+				6C6651141635B58900C80364 /* ViewController.xib */,
+				6C6651061635B58900C80364 /* Supporting Files */,
+			);
+			path = MDTwitterPoster_Demo;
+			sourceTree = "<group>";
+		};
+		6C6651061635B58900C80364 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C6651071635B58900C80364 /* MDTwitterPoster_Demo-Info.plist */,
+				6C6651081635B58900C80364 /* InfoPlist.strings */,
+				6C66510B1635B58900C80364 /* main.m */,
+				6C66510D1635B58900C80364 /* MDTwitterPoster_Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C66511C1635B5EE00C80364 /* MDTwitterPoster */ = {
+			isa = PBXGroup;
+			children = (
+				6C6651201635B60400C80364 /* MDTwitterPoster.h */,
+				6C66511F1635B60400C80364 /* MDTwitterPoster.m */,
+				6C66511E1635B60400C80364 /* MDTwitterPosterConnection.h */,
+				6C66511D1635B60400C80364 /* MDTwitterPosterConnection.m */,
+			);
+			name = MDTwitterPoster;
+			sourceTree = "<group>";
+		};
+		6C6651231635B67000C80364 /* MDTwitterPoster Required Includes */ = {
+			isa = PBXGroup;
+			children = (
+				6C66513D1635C33600C80364 /* MDTwitterPosterIncludes.h */,
+				6C6651381635B7EE00C80364 /* Base64 */,
+				6C6651241635B68D00C80364 /* SBJSON */,
+			);
+			name = "MDTwitterPoster Required Includes";
+			sourceTree = "<group>";
+		};
+		6C6651241635B68D00C80364 /* SBJSON */ = {
+			isa = PBXGroup;
+			children = (
+				6C6651251635B69E00C80364 /* SBJsonParser.m */,
+				6C6651261635B69E00C80364 /* NSString+SBJSON.m */,
+				6C6651271635B69E00C80364 /* NSObject+SBJSON.m */,
+				6C6651281635B69E00C80364 /* SBJsonWriter.m */,
+				6C6651291635B69E00C80364 /* SBJsonWriter.h */,
+				6C66512A1635B69E00C80364 /* SBJsonParser.h */,
+				6C66512B1635B69E00C80364 /* SBJsonBase.m */,
+				6C66512C1635B69E00C80364 /* SBJsonBase.h */,
+				6C66512D1635B69E00C80364 /* SBJSON.m */,
+				6C66512E1635B69E00C80364 /* SBJSON.h */,
+				6C66512F1635B69E00C80364 /* NSString+SBJSON.h */,
+				6C6651301635B69E00C80364 /* NSObject+SBJSON.h */,
+				6C6651311635B69E00C80364 /* JSON.h */,
+			);
+			name = SBJSON;
+			sourceTree = "<group>";
+		};
+		6C6651381635B7EE00C80364 /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				6C6651391635B80000C80364 /* NSData+Base64.m */,
+				6C66513A1635B80000C80364 /* NSData+Base64.h */,
+			);
+			name = Base64;
+			sourceTree = "<group>";
+		};
+		6CFC5E89164847A50043775E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				6CFC5E8A164847BD0043775E /* why_u_no.png */,
+				6CFC5E8B164847BD0043775E /* why_u_no@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C6650FA1635B58800C80364 /* MDTwitterPoster_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C6651191635B58900C80364 /* Build configuration list for PBXNativeTarget "MDTwitterPoster_Demo" */;
+			buildPhases = (
+				6C6650F71635B58800C80364 /* Sources */,
+				6C6650F81635B58800C80364 /* Frameworks */,
+				6C6650F91635B58800C80364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDTwitterPoster_Demo;
+			productName = MDTwitterPoster_Demo;
+			productReference = 6C6650FB1635B58800C80364 /* MDTwitterPoster_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C6650F21635B58800C80364 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 6C6650F51635B58800C80364 /* Build configuration list for PBXProject "MDTwitterPoster_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6C6650F01635B58800C80364;
+			productRefGroup = 6C6650FC1635B58800C80364 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C6650FA1635B58800C80364 /* MDTwitterPoster_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C6650F91635B58800C80364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C66510A1635B58900C80364 /* InfoPlist.strings in Resources */,
+				6C6651161635B58900C80364 /* ViewController.xib in Resources */,
+				6CFC5E8C164847BD0043775E /* why_u_no.png in Resources */,
+				6CFC5E8D164847BD0043775E /* why_u_no@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C6650F71635B58800C80364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C66510C1635B58900C80364 /* main.m in Sources */,
+				6C6651101635B58900C80364 /* AppDelegate.m in Sources */,
+				6C6651131635B58900C80364 /* ViewController.m in Sources */,
+				6C6651211635B60400C80364 /* MDTwitterPosterConnection.m in Sources */,
+				6C6651221635B60400C80364 /* MDTwitterPoster.m in Sources */,
+				6C6651321635B69E00C80364 /* SBJsonParser.m in Sources */,
+				6C6651331635B69E00C80364 /* NSString+SBJSON.m in Sources */,
+				6C6651341635B69E00C80364 /* NSObject+SBJSON.m in Sources */,
+				6C6651351635B69E00C80364 /* SBJsonWriter.m in Sources */,
+				6C6651361635B69E00C80364 /* SBJsonBase.m in Sources */,
+				6C6651371635B69E00C80364 /* SBJSON.m in Sources */,
+				6C66513B1635B80000C80364 /* NSData+Base64.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C6651081635B58900C80364 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C6651091635B58900C80364 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6C6651141635B58900C80364 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C6651151635B58900C80364 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C6651171635B58900C80364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6C6651181635B58900C80364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C66511A1635B58900C80364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDTwitterPoster_Demo/MDTwitterPoster_Demo-Prefix.pch";
+				INFOPLIST_FILE = "MDTwitterPoster_Demo/MDTwitterPoster_Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6C66511B1635B58900C80364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDTwitterPoster_Demo/MDTwitterPoster_Demo-Prefix.pch";
+				INFOPLIST_FILE = "MDTwitterPoster_Demo/MDTwitterPoster_Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C6650F51635B58800C80364 /* Build configuration list for PBXProject "MDTwitterPoster_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6651171635B58900C80364 /* Debug */,
+				6C6651181635B58900C80364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C6651191635B58900C80364 /* Build configuration list for PBXNativeTarget "MDTwitterPoster_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C66511A1635B58900C80364 /* Debug */,
+				6C66511B1635B58900C80364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C6650F21635B58800C80364 /* Project object */;
+}
